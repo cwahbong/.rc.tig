@@ -2,7 +2,7 @@ update:
 	git pull --rebase
 
 install:
-	ln --backup=numbered -s -r tigrc $(HOME)/.tigrc
+	ln --backup=numbered -n -s -r tigrc $(HOME)/.tigrc
 
 Makefile: ; # Do not remake makefile.
 

@@ -1,10 +1,14 @@
-.rc.tig
+dot-tig
 =======
 
 Config file for [tig](https://github.com/jonas/tig), a text-mode interface for
 git.
 
-Usage
+Install
 -----
 
-See [.rc](../../../.rc) for details.
+Install as an [ellipsis](https://github.com/ellipsis/ellipsis) package.
+
+```bash
+ellipsis install https://github.com/cwahbong/dot-tig
+```
